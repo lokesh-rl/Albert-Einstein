@@ -1,0 +1,30 @@
+body {
+	background-color: aqua;
+	background-image: url("./doraemon.jpg");
+}
+.container {
+	background-color: aliceblue;
+	width: 20%;
+	margin: auto;
+	padding: 4%;
+	text-align: center;
+	border-radius: 0%;
+}
+
+.formfield input,.formfield textarea,.formfield select
+{
+	width: 100%;
+	padding: 8px 0px;
+}
+
+button {
+	padding: 10px;
+	background-color: black;
+    color: white;
+	width: 100%;
+}
+@media(max-width:576px){
+	.container{
+		width: 90%;
+	}
+}
